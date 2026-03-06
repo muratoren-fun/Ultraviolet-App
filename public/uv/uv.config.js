@@ -1,7 +1,6 @@
 self.__uv$config = {
     prefix: '/uv/service/',
-    /* Using a robust 2026 Bare server */
-    bare: 'https://uv.studentcenter.biz/bare/', 
+    bare: 'https://bare.benropt.me/', 
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: 'https://cdn.jsdelivr.net/npm/@titaniumnetwork-dev/ultraviolet@3.2.5/dist/uv.handler.js',

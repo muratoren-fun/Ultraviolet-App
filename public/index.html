@@ -8,23 +8,18 @@
 
 		<script src="https://cdn.jsdelivr.net/npm/@mercuryworkshop/bare-mux@2.1.8/dist/index.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/@titaniumnetwork-dev/ultraviolet@3.2.5/dist/uv.bundle.js"></script>
-		
 		<script src="uv/uv.config.js"></script>
 	</head>
-
 	<body>
 		<div class="flex-center logo-wrapper header-center">
 			<img class="logo" src="uv.png" alt="Ultraviolet" />
 			<h1>Ultraviolet | TN</h1>
 		</div>
-
 		<form id="uv-form" class="flex-center">
 			<input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden" />
 			<input id="uv-address" type="text" placeholder="Search the web freely" />
 		</form>
-
 		<iframe style="display: none" id="uv-frame"></iframe>
-		
 		<script src="register-sw.js"></script>
 		<script src="search.js"></script>
 		<script src="index.js"></script>

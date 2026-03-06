@@ -1,4 +1,3 @@
-/* Corrected Cloud Configuration */
 self.__uv$config = {
     prefix: '/uv/service/',
     bare: 'https://tomp.app/', 
@@ -7,5 +6,5 @@ self.__uv$config = {
     handler: 'https://cdn.jsdelivr.net/npm/@titaniumnetwork-dev/ultraviolet@3.2.5/dist/uv.handler.js',
     bundle: 'https://cdn.jsdelivr.net/npm/@titaniumnetwork-dev/ultraviolet@3.2.5/dist/uv.bundle.js',
     config: '/uv/uv.config.js',
-    sw: 'https://cdn.jsdelivr.net/npm/@titaniumnetwork-dev/ultraviolet@3.2.5/dist/uv.sw.js',
+    sw: '/uv/uv.sw.js', // This must point to the file you just created
 };

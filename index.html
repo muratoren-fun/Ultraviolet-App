@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ultraviolet | 2026 Fresh Start</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #000; color: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+        form { width: 80%; max-width: 600px; display: flex; gap: 10px; }
+        input { flex: 1; padding: 15px; border-radius: 8px; border: 1px solid #333; background: #111; color: #fff; outline: none; }
+        button { padding: 15px 30px; border-radius: 8px; border: none; background: #fff; color: #000; cursor: pointer; font-weight: bold; }
+        iframe { display: none; width: 100%; height: 100%; border: none; position: fixed; top: 0; left: 0; background: #fff; }
+    </style>
+</head>
+<body>
+    <h1>Ultraviolet</h1>
+    <form id="uv-form">
+        <input id="uv-address" type="text" placeholder="Search or type a URL...">
+        <button type="submit">Go</button>
+    </form>
+    <iframe id="uv-frame"></iframe>
+
+    <script src="https://cdn.jsdelivr.net/npm/@titaniumnetwork-dev/ultraviolet@3.2.5/dist/uv.bundle.js"></script>
+    <script src="uv.config.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

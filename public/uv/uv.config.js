@@ -1,10 +1,10 @@
 self.__uv$config = {
     prefix: '/uv/service/',
-    bare: 'https://tomp.app/', // Or your preferred bare server
+    bare: 'https://tomp.app/', 
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
-    handler: '/uv/uv.handler.js',
-    bundle: '/uv/uv.bundle.js',
+    handler: 'https://cdn.jsdelivr.net/npm/@titaniumnetwork-dev/ultraviolet@3.2.5/dist/uv.handler.js',
+    bundle: 'https://cdn.jsdelivr.net/npm/@titaniumnetwork-dev/ultraviolet@3.2.5/dist/uv.bundle.js',
     config: '/uv/uv.config.js',
-    sw: '/uv/uv.sw.js',
+    sw: 'https://cdn.jsdelivr.net/npm/@titaniumnetwork-dev/ultraviolet@3.2.5/dist/uv.sw.js',
 };

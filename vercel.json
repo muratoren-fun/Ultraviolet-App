@@ -1,9 +1,5 @@
 {
   "version": 2,
-  "public": true,
   "cleanUrls": true,
-  "trailingSlash": true,
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/public/$1" }
-  ]
+  "trailingSlash": true
 }
